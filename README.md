@@ -10,7 +10,7 @@ In main.py, we can find the problem formulation (you can see more details in htt
 
 We have four data file in 'data' folder that we can use to try the code:
 * data_0.json. This is the base case.
-* data_1.json. Using the base case, we move one ton of supply capacity from Gouda to Arnhem and the objetive function improves in 0.2 euros.
-* data_2.json. Using the base case, we increase the demand in London in one ton, we increase one ton of supply capacity in Gouda (Gouda is the only source for London) and we increase this arc capacity in one ton. Then the objetive function gets worse in 2.5 euros.
-* data_3.json. Using the base case, we increase the demand in Berlin in one ton, we increase one ton of supply capacity in Gouda (Arnhem is the only source for Berlin) and we increase the arc capacity between Arnhem and Berlin in one ton. Then the objetive function gets worse in 2.7 euros.
-* data_4.json. Using the base case, we fixed a transportation between Arnhem and Amsterdam equal to one ton, in order to do that we reduce the capacity between Gouda and Arnhem in one ton. Then the objetive function gets worse in 0.6 euros.
+* data_1.json. Using the base case, we move one ton of supply capacity from Gouda to Arnhem and the objective function improves in 0.2 euros.
+* data_2.json. Using the base case, we increase the demand in London in one ton, we increase one ton of supply capacity in Gouda (Gouda is the only source for London) and we increase this arc capacity in one ton. Then the objective function gets worse in 2.5 euros.
+* data_3.json. Using the base case, we increase the demand in Berlin in one ton, we increase one ton of supply capacity in Gouda (Arnhem is the only source for Berlin) and we increase the arc capacity between Arnhem and Berlin in one ton. Then the objective function gets worse in 2.7 euros.
+* data_4.json. Using the base case, we fixed a transportation between Arnhem and Amsterdam equal to one ton, in order to do that we reduce the capacity between Gouda and Arnhem in one ton. Then the objective function gets worse in 0.6 euros.
