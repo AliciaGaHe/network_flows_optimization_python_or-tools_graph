@@ -8,7 +8,7 @@ We can represent this problem as a bipartite graph where the nodes can be divide
 
 In main.py, we can find the problem formulation (you can see more details in https://developers.google.com/optimization/flow/mincostflow), the way to solve it and a way to print the solution.
 
-We have four data file in 'data' folder that we can use to try the code:
+We have four data files in 'data' folder that we can use to try the code:
 * data_0.json. This is the base case.
 * data_1.json. Using the base case, we move one ton of supply capacity from Gouda to Arnhem and the objective function improves in 0.2 euros.
 * data_2.json. Using the base case, we increase the demand in London in one ton, we increase one ton of supply capacity in Gouda (Gouda is the only source for London) and we increase this arc capacity in one ton. Then the objective function gets worse in 2.5 euros.
